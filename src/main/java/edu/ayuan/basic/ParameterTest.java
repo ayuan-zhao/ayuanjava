@@ -9,6 +9,10 @@ public class ParameterTest {
 
         // 2. test object
         testPerson();
+        testPerson2()
+    }
+
+    private static void testPerson2() {
     }
 
     private static void testPerson() {
