@@ -4,6 +4,10 @@ import edu.ayuan.basic.model.Person3Print;
 //可变参数variable parameter,参数类型是可变，多个的
 
 //java 里方法的参数传递方式只有一种：值传递
+//基础数据类型的值保存在栈中stack；引用对象存在堆中heap,栈中存的是对象在堆中的地址
+//Person3Print p3 = new Person3Print()  STACK栈中传的是堆HEAP中的地址,新建对象的数据在堆中heap
+//P3的对象存在heap中地址是BE9500
+//栈中存的是堆中的地址，它的地址是P AG84300，这就是引用对象
 
 public class VariableParameter {
     public static void main(String[] args) {

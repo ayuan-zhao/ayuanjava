@@ -1,4 +1,4 @@
-package edu.ayuan.basic.method;
+package edu.ayuan.basic.methods;
 
 
 public class OverloadingMax {
