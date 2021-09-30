@@ -7,6 +7,9 @@ public class Person {
     String name; //String 的默认值是null
     int age;//年龄，int的默认值是0
 
+    public Person(int i, String afra) {
+    }
+
     //行为，方法也叫函数
 
     /**
