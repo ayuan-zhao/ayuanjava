@@ -6,7 +6,6 @@
 package model;
 
 import java.util.ArrayList;
-import static model.Person.student1;
 
 /**
  *
