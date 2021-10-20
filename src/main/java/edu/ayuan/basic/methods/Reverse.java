@@ -1,7 +1,5 @@
 package edu.ayuan.basic.methods;
 
-import static edu.ayuan.basic.ParameterPassing3.printArray;
-
 public class Reverse {
 
     public static void main(String[] args) {
