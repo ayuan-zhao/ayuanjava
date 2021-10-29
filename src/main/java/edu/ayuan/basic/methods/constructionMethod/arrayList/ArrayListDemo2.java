@@ -27,7 +27,7 @@ public class ArrayListDemo2 {
 //
 //        4.System.out.println(array.remove(1));
 
-//        5.System.out.println(array.set(2,"welcome"));
+//        5.System.out.println(array.set(2,"welcome"));//修改方法
 
 //        6.pubic E get (int index):返回指定索引处的元素，不改变，只是拿到索引处的元素
 //        System.out.println(array.get(0));

@@ -1,4 +1,4 @@
-package edu.ayuan.basic.objectdesign;
+package edu.ayuan.basic.model.objectdesign;
 
 public class ArrayTest {
     public static void main(String[] args) {

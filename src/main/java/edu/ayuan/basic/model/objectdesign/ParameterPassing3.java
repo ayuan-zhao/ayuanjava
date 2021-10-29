@@ -1,4 +1,4 @@
-package edu.ayuan.basic.objectdesign;
+package edu.ayuan.basic.model.objectdesign;
 //设计一个方法用于数组遍历，要求遍历的结果是在一行上的
 //数组遍历,主要看格式，第一个【输出要在循环之前
 //   System.out.println("输出并换行");输出并换行

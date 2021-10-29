@@ -1,4 +1,4 @@
-package edu.ayuan.basic.objectdesign;
+package edu.ayuan.basic.model.objectdesign;
 
 import java.util.Random;
 import java.util.Scanner;

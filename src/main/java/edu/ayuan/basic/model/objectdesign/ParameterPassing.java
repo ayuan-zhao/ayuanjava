@@ -1,4 +1,4 @@
-package edu.ayuan.basic.objectdesign;
+package edu.ayuan.basic.model.objectdesign;
 
 //对于基本数据类型的参数，形式参数的改变，不影响实际参数的值
 //两个方法中定义的number都是局部变量（Local variable），两个number 虽然都是int number ,但是没关联

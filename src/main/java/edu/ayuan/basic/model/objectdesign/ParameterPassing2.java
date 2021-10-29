@@ -1,4 +1,4 @@
-package edu.ayuan.basic.objectdesign;
+package edu.ayuan.basic.model.objectdesign;
 
 //方法参数传递——引用类型
 //对于引用类型的参数，形式参数的改变，影响实际参数的值
