@@ -1,0 +1,35 @@
+
+万能的option + return,可以给你建议，补全啊之类的。
+
+选中的词 shift + F6  可以把相关的词，都替换掉，换函数，参数的名的时候使用
+
+新的class 不能直接run,空白处点右键，选择run
+
+option command l
+调格式
+
+default :(剩余的)
+system println ("invalid)
+
+math.pow（ge*3）= ge*ge*ge
+
+次的英文是count
+
+12个小时的循环for（int hour =0;hour<=11;hour++）记住边界，有0点就不能有12点，否则就变成13个小时了
+
+int guessedNumber，猜到的数字
+
+public class 的名字要和文件名相同
+
+不要在一个文件里写两个类
+
+person这种事物，只有属性，没有方法的类，叫作modle
+
+Person person1 = new person()
+第一个Person叫类，第二个person1 是一个对象
+这个动作叫创建一个对象，对象本质上是一个内存地址，指针 heap
+target，是编译后的文件，不需要传到git上去
+
+code. gitignore
+
+*.rws的意思是所有带*.rws的
