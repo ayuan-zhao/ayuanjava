@@ -6,6 +6,9 @@ package edu.ayuan.basic.methods;
 //多个方法的参数不相同，类型不同或者数量不同
 //重载仅对应方法的定义，与方法的调用无关，调用方式参照标准格式
 //重载仅针对同一类中方法的名称与参数进行识别，与返回值无关，换句话说不能通过返回值来判定两个方法是否构成重载
+//Method Overloading allows different methods to have the same name, but different signatures where the signature can differ by the number of input parameters or type of input parameters, or a mixture of both.
+//
+//    Method overloading is also known as Compile-time Polymorphism, Static Polymorphism, or Early binding in Java. In Method overloading compared to parent argument, child argument will get the highest priority.
 
 //    与void show (int a,char b,double c){}构成重载的有
 
