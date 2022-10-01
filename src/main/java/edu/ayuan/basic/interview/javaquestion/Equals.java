@@ -29,7 +29,29 @@ public class Equals {
         String str19 = new String("123");
         System.out.println(str18 == str19);
         System.out.println(str18.equals(str19));
-
+//        第一个是判断是否严格相等，str的对象，是否等于anobject对象，判断堆内存是否相同
+//        public boolean equals(Object anObject) {
+//            if (this == anObject) {
+//                return true;
+//            }
+//        第二个是就算不完全相等，是否值是相等的，值相等也equals也返回True
+//            if (anObject instanceof String) {
+//                String anotherString = (String)anObject;
+//                int n = value.length;
+//                if (n == anotherString.value.length) {
+//                    char v1[] = value;
+//                    char v2[] = anotherString.value;
+//                    int i = 0;
+//                    while (n-- != 0) {
+//                        if (v1[i] != v2[i])
+//                            return false;
+//                        i++;
+//                    }
+//                    return true;
+//                }
+//            }
+//            return false;
+//        }
 
 //
 ////    堆中有个常量池There is a constant pool in the heap，"hello"在常量池中分配内存String allocates memory in the constant pool
