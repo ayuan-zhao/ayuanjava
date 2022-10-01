@@ -8,6 +8,14 @@ public class Person {
     protected int age;
     protected int protectedName;
 
+    public Person(String x, int i) {
+
+    }
+
+    public Person() {
+
+    }
+
     public int getAge() {
         return age;
     }
