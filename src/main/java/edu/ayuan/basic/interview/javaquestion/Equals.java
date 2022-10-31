@@ -4,32 +4,41 @@ import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 /**
  * 关于 ==
- * 基本类型：——值比较，比较的是值是否相同
+ * 基本类型：——值比较，比较的是值是否相同（变量所对应的内存中所存储的数值）
+ *要比较两个基本类型的数据或两个引用变量是否相等，只能用==操作符。
  * 引用类型：比较的是引用是否相同storage address in memory，heap memory address
  *
  * 关于equals，本质上是==，只不过String和integer等重写了equals方法，把它变成了值比较
  * equals 的作用:
  * 　　引用类型：默认情况下，比较的是地址值。
  * 注：不过，我们可以根据情况自己重写该方法。一般重写都是自动生成，比较对象的成员变量值是否相同
+ * 字符串的比较基本上都是使用equals方法。
  */
 public class Equals {
 
 
     public static void main(String[] args) {
 //
-//        String str8 = "abc";
-//        String str9 = "abc";
-//        System.out.println(str8 == str9);
-//        System.out.println(str8.equals(str9));
-//        str8 = "bcd";
-//        System.out.println(str8); // bcd
-//        System.out.println(str9); // abc
+        String str8 = "abc";
+        String str9 = "abc";
+        System.out.println(str8 == str9);//true
+        System.out.println(str8.equals(str9));//true
+        str8 = "bcd";
+        System.out.println(str8); // bcd
+        System.out.println(str9); // abc
+
+        System.out.println(str8 == str9);// false
+        System.out.println(str8.equals(str9));//false
+
 
         String str18 = new String("123");
         String str19 = new String("123");
         System.out.println(str18 == str19);
         System.out.println(str18.equals(str19));
-//        第一个是判断是否严格相等，str的对象，是否等于anobject对象，判断堆内存是否相同
+//       equals 有两重判断 第一个是判断是否严格相等，str的对象，是否等于anobject对象，判断堆内存是否相同,第二个是就算不完全相等，是否值是相等的，值相等也equals也返回True
+//       "==" whether it is strictly equal, whether the str object  is the same,whether heap memory is the
+//       same
+//       whether the heap memory is the same
 //        public boolean equals(Object anObject) {
 //            if (this == anObject) {
 //                return true;
